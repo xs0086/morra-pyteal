@@ -1,0 +1,113 @@
+* docker compose up -d
+
+The command 'docker-compose' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+
+For details about using Docker Desktop with WSL 2, visit:
+
+https://docs.docker.com/go/wsl2/
+
+.clean file NOT FOUND. Sandbox images will NOT be rebuilt.
+* docker compose up -d
+Container algorand-sandbox-algod  Created
+Container algorand-sandbox-postgres  Created
+Container algorand-sandbox-indexer  Created
+Container algorand-sandbox-postgres  Starting
+Container algorand-sandbox-algod  Starting
+Container algorand-sandbox-postgres  Started
+Container algorand-sandbox-algod  Started
+Container algorand-sandbox-indexer  Starting
+Container algorand-sandbox-indexer  Started
+.clean file NOT FOUND. Sandbox images will NOT be rebuilt.
+* docker compose up -d
+Container algorand-sandbox-postgres  Running
+Container algorand-sandbox-algod  Recreate
+Container algorand-sandbox-algod  Recreated
+Container algorand-sandbox-indexer  Recreate
+Container algorand-sandbox-indexer  Recreated
+Container algorand-sandbox-algod  Starting
+Container algorand-sandbox-algod  Started
+Container algorand-sandbox-indexer  Starting
+Container algorand-sandbox-indexer  Started
+.clean file NOT FOUND. Sandbox images will NOT be rebuilt.
+* docker compose up -d
+Container algorand-sandbox-algod  Created
+Container algorand-sandbox-postgres  Created
+Container algorand-sandbox-indexer  Running
+Container algorand-sandbox-algod  Starting
+Container algorand-sandbox-postgres  Starting
+Container algorand-sandbox-algod  Started
+Container algorand-sandbox-postgres  Started
+.clean file NOT FOUND. Sandbox images will NOT be rebuilt.
+* docker compose up -d
+Container algorand-sandbox-algod  Created
+Container algorand-sandbox-postgres  Created
+Container algorand-sandbox-indexer  Running
+Container algorand-sandbox-postgres  Starting
+Container algorand-sandbox-algod  Starting
+Container algorand-sandbox-postgres  Started
+Container algorand-sandbox-algod  Started
+.clean file NOT FOUND. Sandbox images will NOT be rebuilt.
+* docker compose up -d
+Container algorand-sandbox-postgres  Running
+Container algorand-sandbox-algod  Running
+Container algorand-sandbox-indexer  Running
+.clean file NOT FOUND. Sandbox images will NOT be rebuilt.
+* docker compose up -d
+Container algorand-sandbox-postgres  Running
+Container algorand-sandbox-algod  Running
+Container algorand-sandbox-indexer  Running
+* docker compose down
+Container algorand-sandbox-indexer  Stopping
+Container algorand-sandbox-indexer  Stopping
+Container algorand-sandbox-indexer  Stopped
+Container algorand-sandbox-indexer  Removing
+Container algorand-sandbox-indexer  Removed
+Container algorand-sandbox-algod  Stopping
+Container algorand-sandbox-algod  Stopping
+Container algorand-sandbox-postgres  Stopping
+Container algorand-sandbox-postgres  Stopping
+Container algorand-sandbox-algod  Stopped
+Container algorand-sandbox-algod  Removing
+Container algorand-sandbox-postgres  Stopped
+Container algorand-sandbox-postgres  Removing
+Container algorand-sandbox-postgres  Removed
+Container algorand-sandbox-algod  Removed
+Network sandbox_default  Removing
+Network sandbox_default  Removed
+* docker rmi sandbox_algod sandbox_indexer
+Error: No such image: sandbox_algod
+Error: No such image: sandbox_indexer
+* docker compose rm -f
+No stopped containers
+* docker rmi 
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+* docker compose up -d
+Container algorand-sandbox-postgres  Running
+Container algorand-sandbox-algod  Running
+Container algorand-sandbox-indexer  Running
+* docker compose up -d
+Container algorand-sandbox-algod  Created
+Container algorand-sandbox-postgres  Created
+Container algorand-sandbox-indexer  Created
+Container algorand-sandbox-postgres  Starting
+Container algorand-sandbox-algod  Starting
+Container algorand-sandbox-algod  Started
+Container algorand-sandbox-postgres  Started
+Container algorand-sandbox-indexer  Starting
+Container algorand-sandbox-indexer  Started
+* docker compose up -d
+Container algorand-sandbox-algod  Created
+Container algorand-sandbox-postgres  Created
+Container algorand-sandbox-indexer  Created
+Container algorand-sandbox-postgres  Starting
+Container algorand-sandbox-algod  Starting
+Container algorand-sandbox-postgres  Started
+Container algorand-sandbox-algod  Started
+Container algorand-sandbox-indexer  Starting
+Container algorand-sandbox-indexer  Started
